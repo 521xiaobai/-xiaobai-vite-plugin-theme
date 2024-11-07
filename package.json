@@ -1,6 +1,6 @@
 {
   "name": "@xiaobai521/vite-plugin-theme",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Vite plugin for dynamically changing the theme color of the interface",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -28,7 +28,7 @@
     "test": "jest --coverage",
     "test:watch": "jest --watch",
     "install:husky": "is-ci || husky install",
-    "postinstall": "npm run install:husky",
+    "_postinstall": "npm run install:husky",
     "postpublish": "pinst --enable"
   },
   "keywords": [
